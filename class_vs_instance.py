@@ -3,7 +3,9 @@ class Website:
         self.title = title
 
 ws = Website('My Website Title')
+print(ws.title)
 print(ws.__dict__)
+
 
 ws_two = Website('Second Title')
 print(ws_two.__dict__)
